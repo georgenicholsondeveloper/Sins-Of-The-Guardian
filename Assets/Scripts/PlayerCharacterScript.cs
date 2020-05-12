@@ -45,8 +45,8 @@ public class PlayerCharacterScript : MonoBehaviour
 
     void InputController()
     {
-        if (Input.GetKey(KeyCode.Joystick1Button8)) // If Left Stick is Clicked in and Held (L3), make player speed sprint, else make them jog.
-            moveSpeed = sprintSpeed;
+        if (Input.GetKey(KeyCode.Joystick1Button8))// If Left Stick is Clicked in and Held (L3), make player speed sprint, else make them jog.
+            moveSpeed = sprintSpeed;         
         else
             moveSpeed = jogSpeed;
 

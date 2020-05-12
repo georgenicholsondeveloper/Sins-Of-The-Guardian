@@ -6,18 +6,28 @@ using UnityEngine.UI;
 public class UserInterfaceScript : MonoBehaviour
 {
     [SerializeField]
-    GameObject gameManager, maskSelectionSystem, pauseScreenElements, deathScreenElements;
+    GameObject maskSelectionSystem, pauseScreenElements, deathScreenElements;
     [SerializeField]
     Image slothUi;
+    [SerializeField]
+    Text tutorialText;
 
-    public bool slothActive = false;
+    public GameObject gameManager;
+
+    public bool slothActive = false, tutorial;
     bool isPaused, isDead;
+ 
+
+    private void Start()
+    {
+        tutorialText.enabled = false;
+    }
 
     void Update()
     {
         GamePaused(); //Activate Pause Screen UI Elements.
         PlayerDead(); //Activate Death Screen UI Elements.
-        MaskSelectionElements(); //Activate Mask Selection UI ELements.
+        MaskSelectionElements(); //Activate Mask Selection UI Elements.
         SlothActive(); //Activate Sloth Ability UI Elements.
     }
 
@@ -25,7 +35,7 @@ public class UserInterfaceScript : MonoBehaviour
     {
         isPaused = gameManager.GetComponent<GameManagerScript>().paused; //Get whether player has Paused game.
 
-        if (isPaused)
+        if (isPaused && !tutorial)
             pauseScreenElements.SetActive(true); //Activate if paused.
         else
             pauseScreenElements.SetActive(false); //Disable if not paused.
@@ -60,5 +70,25 @@ public class UserInterfaceScript : MonoBehaviour
         }
         else
             slothUi.enabled = false; //Disable the UI element.
+    }
+
+    public void Tutorial(int tutorialNumber, bool completed)
+    {
+        print("YE");
+        print(tutorialNumber);
+        switch (tutorialNumber)
+        {
+            case 1:
+                print("UHUH");
+                if (!completed)
+                {
+                    tutorialText.enabled = true;
+                    print("HIYA");
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+        }
+
     }
 }

@@ -83,8 +83,10 @@
     <Compile Include="Assets\Scripts\SlothMask.cs" />
     <Compile Include="Assets\Scripts\SporeGrow.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCamScript.cs" />
+    <Compile Include="Assets\Scripts\TutorialScript.cs" />
     <Compile Include="Assets\Scripts\UserInterfaceScript.cs" />
     <Compile Include="Assets\Scripts\WrathMask.cs" />
+    <Compile Include="Assets\TutorialCalculationScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/Work/Game Development/Unity/Year 3 - Uni/Sins-Of-The-Guardian/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

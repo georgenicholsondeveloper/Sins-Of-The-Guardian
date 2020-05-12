@@ -47,7 +47,8 @@ public class ThirdPersonCamScript : MonoBehaviour
 
     private void OnTriggerStay(Collider other) //If the Camera is colliding with an object set colliding to true.
     {
-        inputControl.GetComponent<InputControlScript>().colliding = true;
+        if(!other.isTrigger)
+            inputControl.GetComponent<InputControlScript>().colliding = true;
     }
 
     private void OnTriggerExit(Collider other) //Once the camera is not longer colliding, set it to false.
