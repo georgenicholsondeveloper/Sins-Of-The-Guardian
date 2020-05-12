@@ -45,7 +45,7 @@ public class LustMask : MonoBehaviour
                 enemySelected = true;
                 playerCam.gameObject.SetActive(false);
                 lustActive = true;             
-                cooldown = Time.time + 5f;
+                cooldown = Time.time + 10f;
                 HaltAnimation();
             }
             activateAbility = false;

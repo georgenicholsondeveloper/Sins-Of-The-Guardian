@@ -91,6 +91,12 @@ public class TutorialCalculationScript : MonoBehaviour
                         tutorialScript.input = true;
                     }
                     break;
+                case 12:
+                    if (Input.GetKey(KeyCode.Joystick1Button1))
+                    {
+                        tutorialScript.input = true;
+                    }
+                    break;
             }
         }
     }

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - UserInterface
+  - Enemy
+  - Blockade
   layers:
   - Default
   - TransparentFX
