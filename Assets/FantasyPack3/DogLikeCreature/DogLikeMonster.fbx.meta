@@ -1,0 +1,3025 @@
+fileFormatVersion: 2
+guid: 9ede3064f7979544eb973a3712834c2a
+timeCreated: 1538125538
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm.L
+    100002: arm.R
+    100004: back_toe.L
+    100006: back_toe.L_end
+    100008: back_toe.R
+    100010: back_toe.R_end
+    100012: Dog_Arma
+    100014: Dog_mesh
+    100016: //RootNode
+    100018: fingers.L
+    100020: fingers.L_end
+    100022: fingers.R
+    100024: fingers.R_end
+    100026: foot.L
+    100028: foot.R
+    100030: forearm.L
+    100032: forearm.R
+    100034: hand.L
+    100036: hand.R
+    100038: head
+    100040: hip.L
+    100042: hip.R
+    100044: IK_hip
+    100046: jaw
+    100048: jaw_end
+    100050: leg1.L
+    100052: leg1.R
+    100054: leg2.L
+    100056: leg2.R
+    100058: leg3.L
+    100060: leg3.R
+    100062: neck1
+    100064: neck3
+    100066: Root_Bone
+    100068: shoulder.L
+    100070: shoulder.R
+    100072: spine1
+    100074: spine2
+    100076: tail1
+    100078: tail2
+    100080: tail3
+    100082: tail4
+    100084: tail5
+    100086: tail_end
+    100088: tail_end_end
+    100090: IK_arm.L
+    100092: IK_arm.R
+    100094: IK_elbow.L
+    100096: IK_elbow.L_end
+    100098: IK_elbow.R
+    100100: IK_elbow.R_end
+    100102: IK_foot.L
+    100104: IK_foot.L_end
+    100106: IK_foot.R
+    100108: IK_foot.R_end
+    100110: IK_knee.L
+    100112: IK_knee.L_end
+    100114: IK_knee.R
+    100116: IK_knee.R_end
+    100118: IK_Leg.L
+    100120: IK_Leg.R
+    400000: arm.L
+    400002: arm.R
+    400004: back_toe.L
+    400006: back_toe.L_end
+    400008: back_toe.R
+    400010: back_toe.R_end
+    400012: Dog_Arma
+    400014: Dog_mesh
+    400016: //RootNode
+    400018: fingers.L
+    400020: fingers.L_end
+    400022: fingers.R
+    400024: fingers.R_end
+    400026: foot.L
+    400028: foot.R
+    400030: forearm.L
+    400032: forearm.R
+    400034: hand.L
+    400036: hand.R
+    400038: head
+    400040: hip.L
+    400042: hip.R
+    400044: IK_hip
+    400046: jaw
+    400048: jaw_end
+    400050: leg1.L
+    400052: leg1.R
+    400054: leg2.L
+    400056: leg2.R
+    400058: leg3.L
+    400060: leg3.R
+    400062: neck1
+    400064: neck3
+    400066: Root_Bone
+    400068: shoulder.L
+    400070: shoulder.R
+    400072: spine1
+    400074: spine2
+    400076: tail1
+    400078: tail2
+    400080: tail3
+    400082: tail4
+    400084: tail5
+    400086: tail_end
+    400088: tail_end_end
+    400090: IK_arm.L
+    400092: IK_arm.R
+    400094: IK_elbow.L
+    400096: IK_elbow.L_end
+    400098: IK_elbow.R
+    400100: IK_elbow.R_end
+    400102: IK_foot.L
+    400104: IK_foot.L_end
+    400106: IK_foot.R
+    400108: IK_foot.R_end
+    400110: IK_knee.L
+    400112: IK_knee.L_end
+    400114: IK_knee.R
+    400116: IK_knee.R_end
+    400118: IK_Leg.L
+    400120: IK_Leg.R
+    4300000: Dog_mesh
+    7400000: Dog_Arma_battle_idle
+    7400002: Dog_Arma_bite1
+    7400004: Dog_Arma_bite2
+    7400006: Dog_Arma_claw_attack
+    7400008: Dog_Arma_death1
+    7400010: Dog_Arma_death2
+    7400012: Dog_Arma_hit1
+    7400014: Dog_Arma_hit2
+    7400016: Dog_Arma_idle
+    7400018: Dog_Arma_jump
+    7400020: Dog_Arma_RM_run
+    7400022: Dog_Arma_RM_walk
+    7400024: Dog_Arma_roar
+    7400026: Dog_Arma_run
+    7400028: Dog_Arma_turn_left
+    7400030: Dog_Arma_turn_right
+    7400032: Dog_Arma_walk
+    7400034: turn_left_RM
+    7400036: turn_right_RM
+    9500000: //RootNode
+    13700000: Dog_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dog_Arma_battle_idle
+      takeName: Dog_Arma|battle_idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_bite1
+      takeName: Dog_Arma|bite1
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_bite2
+      takeName: Dog_Arma|bite2
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_claw_attack
+      takeName: Dog_Arma|claw_attack
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_death1
+      takeName: Dog_Arma|death1
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_death2
+      takeName: Dog_Arma|death2
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_hit1
+      takeName: Dog_Arma|hit1
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_hit2
+      takeName: Dog_Arma|hit2
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_idle
+      takeName: Dog_Arma|idle
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_jump
+      takeName: Dog_Arma|jump
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_RM_run
+      takeName: Dog_Arma|RM_run
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_RM_walk
+      takeName: Dog_Arma|RM_walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_roar
+      takeName: Dog_Arma|roar
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_run
+      takeName: Dog_Arma|run
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_turn_left
+      takeName: Dog_Arma|turn_left
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_turn_right
+      takeName: Dog_Arma|turn_right
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dog_Arma_walk
+      takeName: Dog_Arma|walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 1
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 1
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 1
+      - path: Dog_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: turn_left_RM
+      takeName: Dog_Arma|turn_left_RM
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 0
+      - path: Dog_Arma/IK_Leg.L
+        weight: 0
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 0
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 0
+      - path: Dog_Arma/IK_Leg.R
+        weight: 0
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 0
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 0
+      - path: Dog_mesh
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 4637fe502fb016f428b67af10fd74c27, type: 2}
+    - serializedVersion: 16
+      name: turn_right_RM
+      takeName: Dog_Arma|turn_right_RM
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog_Arma
+        weight: 0
+      - path: Dog_Arma/IK_Leg.L
+        weight: 0
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L
+        weight: 0
+      - path: Dog_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+        weight: 0
+      - path: Dog_Arma/IK_Leg.R
+        weight: 0
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R
+        weight: 0
+      - path: Dog_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone
+        weight: 1
+      - path: Dog_Arma/Root_Bone/IK_arm.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_foot.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_foot.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/back_toe.L/back_toe.L_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/back_toe.R/back_toe.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/neck1/neck3/head/jaw/jaw_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+        weight: 0
+      - path: Dog_Arma/Root_Bone/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+        weight: 0
+      - path: Dog_mesh
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 4637fe502fb016f428b67af10fd74c27, type: 2}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Root_Bone
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

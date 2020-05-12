@@ -5,7 +5,6 @@ using UnityEngine;
 public class SporeGrow : MonoBehaviour
 {
     bool grow, activateRed;
-    public bool shrink;
     float x = 1;
     Vector3 startVector, currentVector;
     [SerializeField]
@@ -13,9 +12,9 @@ public class SporeGrow : MonoBehaviour
 
     private void Start()
     {
-
         startVector = transform.localScale * 3;
         currentVector = transform.localScale;
+
     }
 
     void Update()
@@ -45,18 +44,6 @@ public class SporeGrow : MonoBehaviour
 
         }
 
-
-
-
         transform.localScale = currentVector;
     }
-
-
-    public void Shrink()
-    {
-       
-
-        print("hwueh");
-    }
-
 }

@@ -27,7 +27,7 @@ public class Dog_ctrl : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{						
-		anim = GetComponent<Animator>();
+		anim = GetComponentInChildren<Animator>();
 		controller = GetComponent<CharacterController> ();
 		w_sp = speed; //read walk speed
 		r_sp = runSpeed; //read run speed
@@ -205,7 +205,7 @@ public class Dog_ctrl : MonoBehaviour {
         }
         else
         {
-           // EnemyCamera.SetActive(false);
+            EnemyCamera.SetActive(false);
             moveDirection.z = 0;
             moveDirection.x = 0;
             anim.SetFloat("Speed", 0f);
@@ -223,8 +223,13 @@ public class Dog_ctrl : MonoBehaviour {
     {
         if (anim && Manipulating)
         {
-            anim.SetFloat("Speed", aniSpeed);
-            anim.SetFloat("Direction", aniDirection);
+            if(aniSpeed > 1|| aniDirection > 1)
+            {
+                anim.SetBool("Run", true);
+                anim.SetBool("Walk", false);
+                anim.SetBool("Idle", false);
+            }
+           
         }
     }
 

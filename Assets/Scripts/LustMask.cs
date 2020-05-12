@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class LustMask : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class LustMask : MonoBehaviour
     {
         if (enemySelected && lustActive)
         {
-            if (targettedEnemy.GetComponent<Dog_ctrl>())
+            if (targettedEnemy.GetComponentInChildren<Dog_ctrl>())
                 dogManipulationScript.Manipulating = true;
         }
     }
@@ -38,7 +39,9 @@ public class LustMask : MonoBehaviour
             if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward * 30f, out RaycastHit hit) && (hit.transform.parent.tag == "Enemy" || hit.transform.tag == "Enemy"))
             {
                 targettedEnemy = hit.transform.parent.gameObject;
-                dogManipulationScript = targettedEnemy.GetComponent<Dog_ctrl>();
+                targettedEnemy.GetComponentInChildren<BaseEAI>().enabled = false;
+                targettedEnemy.GetComponentInChildren<NavMeshAgent>().enabled = false;
+                dogManipulationScript = targettedEnemy.GetComponentInChildren<Dog_ctrl>();
                 enemySelected = true;
                 playerCam.gameObject.SetActive(false);
                 lustActive = true;             
@@ -65,7 +68,8 @@ public class LustMask : MonoBehaviour
                 dogManipulationScript.Manipulating = false;
                 if(Time.time > cooldown + 0.4f)
                   lustActive = false;
-                dogManipulationScript.transform.gameObject.GetComponentInChildren<Camera>().enabled = false;
+                targettedEnemy.GetComponentInChildren<BaseEAI>().enabled = true;
+                targettedEnemy.GetComponentInChildren<NavMeshAgent>().enabled = true;
                 playerCam.gameObject.SetActive(true);               
             }
         }

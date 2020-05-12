@@ -62,6 +62,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FantasyPack3\DogLikeCreature\DogTrailerAnimBehaviour.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\Dev1\AlertEnemies.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawAI.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawScout.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\Dev1\FindPlayer.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\Dev1\TargetPlayer.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\Dev2\SensingPlayer.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\Dev2\SightReceiver.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\DUKnowUrEnemy\BaseEAI.cs" />
+    <Compile Include="Assets\MD_Folder\Scripts\sample.cs" />
     <Compile Include="Assets\Scripts\ActivateLever.cs" />
     <Compile Include="Assets\Scripts\AnimatorScript.cs" />
     <Compile Include="Assets\Scripts\bulletBehaviour.cs" />
@@ -88,6 +98,7 @@
     <Compile Include="Assets\Scripts\TutorialScript.cs" />
     <Compile Include="Assets\Scripts\UserInterfaceScript.cs" />
     <Compile Include="Assets\Scripts\WrathMask.cs" />
+    <None Include="Assets\Flying Beetle\material\Standard_Two_Sided .shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/Work/Game Development/Unity/Year 3 - Uni/Sins-Of-The-Guardian/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
