@@ -159,6 +159,15 @@ public class UserInterfaceScript : MonoBehaviour
             case 10:
                 if (!completed)
                 {
+                    tutorialText.text = "Puzzles can be solved in a variety of ways using your abilities." + "\n" + "This area has two different ways you can progress";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 11:
+                if (!completed)
+                {
                     tutorialText.text = "The Wrath Mask shoots a strong force from the Guardian's hand." + "\n" + "Select the Horned Mask, use Left Trigger to aim and Press 'X' to activate it" + "\n" + "\n" + "Try aiming it at this rock, and use Sloth to ride it on the way down";
                     tutorialText.enabled = true;
                 }

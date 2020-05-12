@@ -80,6 +80,12 @@ public class TutorialCalculationScript : MonoBehaviour
                     }
                     break;
                 case 10:
+                    if (Input.GetKey(KeyCode.Joystick1Button1))
+                    {
+                        tutorialScript.input = true;
+                    }
+                    break;
+                case 11:
                     if (Input.GetAxis("LeftTrigger") != 0)
                     {
                         tutorialScript.input = true;
