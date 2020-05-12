@@ -74,16 +74,12 @@ public class UserInterfaceScript : MonoBehaviour
 
     public void Tutorial(int tutorialNumber, bool completed)
     {
-        print("YE");
-        print(tutorialNumber);
         switch (tutorialNumber)
         {
             case 1:
-                print("UHUH");
                 if (!completed)
                 {
                     tutorialText.enabled = true;
-                    print("HIYA");
                 }
                 else
                     tutorialText.enabled = false;

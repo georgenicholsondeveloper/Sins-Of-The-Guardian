@@ -29,9 +29,7 @@ public class TutorialScript : MonoBehaviour
         {
             if (!completed)
             {
-                print(tutNumber);
                 uiScript.Tutorial(tutNumber, false);
-                print("hi");
                 if (freezeTime)
                 {
                     uiScript.tutorial = true;

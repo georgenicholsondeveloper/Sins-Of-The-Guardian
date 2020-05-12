@@ -15,7 +15,10 @@ public class AnimatorScript : MonoBehaviour
         if (animator)
         {
             if (gameManager.GetComponent<GameManagerScript>().paused)
+            {
                 animator.updateMode = AnimatorUpdateMode.Normal;
+                print("hello");
+            }
             else
                 animator.updateMode = AnimatorUpdateMode.UnscaledTime;
 
