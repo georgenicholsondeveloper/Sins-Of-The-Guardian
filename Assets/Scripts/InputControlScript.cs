@@ -9,7 +9,7 @@ public class InputControlScript : MonoBehaviour
 
     [SerializeField]
     private GameObject gameManager;
-    private float rotateSpeed, v, h;
+    private float rotateSpeed, v, h, cooldown;
     private Vector3 targetRot, orbitSize;
     
     void Update()
@@ -29,10 +29,14 @@ public class InputControlScript : MonoBehaviour
 
     void ScaleOrbit()
     {
-        if(colliding) //If the Camera is colliding with a wall, reduce the size of the Orbit object until it isn't.
+        if (colliding)
+        { //If the Camera is colliding with a wall, reduce the size of the Orbit object until it isn't.
             cameraOrbit.transform.localScale *= 0.965f;
-        else if(cameraOrbit.transform.localScale.x <= orbitSize.x) //Once the camera is no longer colliding, scale Orbit Object to it's original size.
+            cooldown = Time.time + 0.5f;
+        }
+        else if (Time.time > cooldown && cameraOrbit.transform.localScale.x <= orbitSize.x) //Once the camera is no longer colliding, scale Orbit Object to it's original size.
             cameraOrbit.transform.localScale /= 0.965f;
+        
     }
 
     void RotateCamOrbit()
