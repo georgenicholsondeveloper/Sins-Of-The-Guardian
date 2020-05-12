@@ -8,7 +8,7 @@ public class WrathMask : MonoBehaviour
 
     private bool activateAbility;
     [SerializeField]
-    private ParticleSystem wrathParticle, hitParticle;
+    private ParticleSystem wrathParticle, hitParticle, chargedParticle;
     private List<ParticleSystem> particles = new List<ParticleSystem>();
     private float countdown, timeHeld;
     private List<GameObject> hitObjects = new List<GameObject>();
@@ -17,6 +17,7 @@ public class WrathMask : MonoBehaviour
     private void Start()
     {
         wrathParticle.Stop(); //Disable the Particle Effect Tied to the Player's Hand.
+        chargedParticle.gameObject.SetActive(false);
     }
 
     void Update()
@@ -33,6 +34,11 @@ public class WrathMask : MonoBehaviour
         if (activateAbility && countdown <= 0 && (Input.GetKey(KeyCode.Joystick1Button2) || Input.GetKeyUp(KeyCode.Joystick1Button2))) //If the mask's ability should activate and the cooldown has been reached.
         {
             timeHeld += Time.unscaledDeltaTime;
+
+            if (timeHeld >= 1.5f)
+                chargedParticle.gameObject.SetActive(true);
+
+              
 
             if (Input.GetKeyUp(KeyCode.Joystick1Button2))
             {
@@ -64,6 +70,7 @@ public class WrathMask : MonoBehaviour
                 }
                     timeHeld = 0;
                     wrathParticle.Play(); //Activate the Wrath Particle on the Hand.
+                    chargedParticle.gameObject.SetActive(false);
                     activateAbility = false; //Disable the Ability.
                 }
             }

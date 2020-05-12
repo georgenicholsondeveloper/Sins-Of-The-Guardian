@@ -50,9 +50,10 @@ public class DamageScript : MonoBehaviour
     }
 
     public void Respawn()
-    { 
-        FindObjectOfType<GameManagerScript>().dead = false; //Disable the Death Screen.
+    {
+        GetComponent<CharacterController>().enabled = false;
         transform.position = spawnPosition; //Set Position to the Spawn Position;
+        FindObjectOfType<GameManagerScript>().dead = false; //Disable the Death Screen.    
         Model.transform.position = new Vector3(transform.position.x,transform.position.y -1.17f,transform.position.z); 
         // ^^ Set the Model's Position.
         transform.rotation = spawnRotation; //Set the rotation of the player.
@@ -60,8 +61,9 @@ public class DamageScript : MonoBehaviour
         gourdOne.startColor = Color.cyan; //Return the Gourd Particles to normal colour.
         gourdTwo.startColor = Color.cyan;
         transform.GetComponentInChildren<Animator>().Play("Idle", 0); //Return the animator to Idle.
-        health = 100; //Set Player's Health to 100.
         dead = false; //Reactivate Scripts by setting dead to false.
+        health = 100; //Set Player's Health to 100.       
+        GetComponent<CharacterController>().enabled = true;
     }
 
     void Animation()
