@@ -15,6 +15,7 @@ public class GameManagerScript : MonoBehaviour
     void Update()
     {
         InputManager();  //Checks for Player Input.
+        PauseGame();
     }
 
     void InputManager()

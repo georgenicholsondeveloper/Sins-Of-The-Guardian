@@ -30,6 +30,7 @@ public class TutorialScript : MonoBehaviour
             if (!completed)
             {
                 uiScript.Tutorial(tutNumber, false);
+                print("HI");
                 if (freezeTime)
                 {
                     uiScript.tutorial = true;
@@ -45,6 +46,7 @@ public class TutorialScript : MonoBehaviour
         {
             if (input)
             {
+                print("HELLO");
                 uiScript.Tutorial(tutNumber, true);
                 completed = true;
 

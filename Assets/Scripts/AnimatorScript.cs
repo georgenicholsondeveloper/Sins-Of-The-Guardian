@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimatorScript : MonoBehaviour
 {
     [SerializeField]
-    GameObject gameManager;
+    private GameObject gameManager;
 
     void OnAnimatorMove()
     {
@@ -17,7 +17,7 @@ public class AnimatorScript : MonoBehaviour
             if (gameManager.GetComponent<GameManagerScript>().paused)
             {
                 animator.updateMode = AnimatorUpdateMode.Normal;
-                print("hello");
+                print(Time.timeScale);
             }
             else
                 animator.updateMode = AnimatorUpdateMode.UnscaledTime;

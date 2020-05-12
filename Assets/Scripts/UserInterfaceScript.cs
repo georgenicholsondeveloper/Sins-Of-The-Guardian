@@ -79,6 +79,7 @@ public class UserInterfaceScript : MonoBehaviour
             case 1:
                 if (!completed)
                 {
+                    print("HELLO");
                     tutorialText.enabled = true;
                 }
                 else
