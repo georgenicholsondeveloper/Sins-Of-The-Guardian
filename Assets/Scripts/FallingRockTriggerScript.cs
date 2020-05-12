@@ -12,7 +12,7 @@ public class FallingRockTriggerScript : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Blockade")
+        if (other.gameObject.tag == "Player")
             rock.GetComponent<Rigidbody>().isKinematic = false; 
     }
 }

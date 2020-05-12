@@ -65,6 +65,7 @@
     <Compile Include="Assets\CleanseScript.cs" />
     <Compile Include="Assets\FallingRockScript.cs" />
     <Compile Include="Assets\FantasyPack3\DogLikeCreature\DogTrailerAnimBehaviour.cs" />
+    <Compile Include="Assets\GruckPushRockScript.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\AlertEnemies.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawAI.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawScout.cs" />

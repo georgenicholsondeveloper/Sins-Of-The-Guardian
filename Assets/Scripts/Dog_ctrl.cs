@@ -66,6 +66,9 @@ public class Dog_ctrl : MonoBehaviour {
 
             moveDirection.y -= gravity * Time.deltaTime;
             controller.Move(moveDirection * Time.deltaTime);
+
+            if (Input.GetKeyDown(KeyCode.Joystick1Button1))
+                FindObjectOfType<LustMask>().lustActive = false;
         }
         else
         {

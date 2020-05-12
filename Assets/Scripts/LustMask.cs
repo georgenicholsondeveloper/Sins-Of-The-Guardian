@@ -64,14 +64,17 @@ public class LustMask : MonoBehaviour
         if (lustActive)
         {
             if(Time.time > cooldown)
-            {
-                dogManipulationScript.Manipulating = false;
+            {              
                 if(Time.time > cooldown + 0.4f)
-                  lustActive = false;
-                targettedEnemy.GetComponentInChildren<BaseEAI>().enabled = true;
-                targettedEnemy.GetComponentInChildren<NavMeshAgent>().enabled = true;
-                playerCam.gameObject.SetActive(true);               
+                  lustActive = false;                         
             }
+        }
+        else if(dogManipulationScript)
+        {
+            dogManipulationScript.Manipulating = false;
+            targettedEnemy.GetComponentInChildren<BaseEAI>().enabled = true;
+            targettedEnemy.GetComponentInChildren<NavMeshAgent>().enabled = true;
+            playerCam.gameObject.SetActive(true);
         }
     }
 

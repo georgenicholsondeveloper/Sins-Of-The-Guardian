@@ -7,6 +7,11 @@ public class ResetRockScript : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Blockade")
-            other.GetComponent<FallingRockScript>().reset = true;
+        {
+            if (other.GetComponent<FallingRockScript>())
+            {
+                other.GetComponent<FallingRockScript>().reset = true;
+            }
+        }
     }
 }
