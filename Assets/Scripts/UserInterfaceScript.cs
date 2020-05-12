@@ -79,12 +79,75 @@ public class UserInterfaceScript : MonoBehaviour
             case 1:
                 if (!completed)
                 {
-                    print("HELLO");
                     tutorialText.enabled = true;
                 }
                 else
                     tutorialText.enabled = false;
                 break;
+            case 2:
+                if (!completed)
+                {
+                    tutorialText.text = "Use the Right Stick to Look Around";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 3:
+                if (!completed)
+                {
+                    tutorialText.text = "Jump with the 'A' button. Press it Twice to Double Jump";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 4:
+                if (!completed)
+                {
+                    tutorialText.text = "This is a fountain. If the Guardian becomes too damaged he will return here. Activate it by getting close and pressing the 'Y' button." + "\n" + "\n" +  "Press 'B' to continue.";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 5:
+                if (!completed)
+                {
+                    tutorialText.text = "The Sloth Mask Slows time for 5 seconds. Press 'X' to activate it";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 6:
+                if (!completed)
+                {
+                    tutorialText.text = "Use LB and RB to cycle through the masks";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 7:
+                if (!completed)
+                {
+                    tutorialText.text = "The Pride Mask allows you to blink forward" + "\n" + "Select the Circular Mask and Press 'X' to activate it";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 8:
+                if (!completed)
+                {
+                    tutorialText.text = "You can combine abilities if you're quick enough. Try using Sloth and Pride to cross this gap" + "\n" + "Press 'B' to cancel";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+
         }
 
     }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TutorialScript : MonoBehaviour
 {
-    private GameObject Ui;
+    private GameObject Ui, player;
     private UserInterfaceScript uiScript;
     private bool completed;
 
@@ -27,14 +27,14 @@ public class TutorialScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            player = other.gameObject;
             if (!completed)
             {
                 uiScript.Tutorial(tutNumber, false);
-                print("HI");
                 if (freezeTime)
                 {
                     uiScript.tutorial = true;
-                    uiScript.gameManager.GetComponent<GameManagerScript>().paused = true;
+                    player.GetComponent<PlayerCharacterScript>().tutorial = true;
                 }
             }
         }
@@ -46,13 +46,11 @@ public class TutorialScript : MonoBehaviour
         {
             if (input)
             {
-                print("HELLO");
                 uiScript.Tutorial(tutNumber, true);
                 completed = true;
-
                 if (freezeTime)
                 {
-                    uiScript.gameManager.GetComponent<GameManagerScript>().paused = false;
+                    player.GetComponent<PlayerCharacterScript>().tutorial = false;                    
                     uiScript.tutorial = false;                 
                 }
             }

@@ -9,7 +9,7 @@ public class GameManagerScript : MonoBehaviour
 
     public bool paused, dead;
 
-    private float currentTimeScale;
+    private float currentTimeScale = 1;
 
 
     void Update()
@@ -25,7 +25,10 @@ public class GameManagerScript : MonoBehaviour
             if (!paused) //If the game isn't paused already.
                 paused = true;
             else
+            {
                 paused = false;
+                Time.timeScale = currentTimeScale; //Restore the timeScale to it's value before pause.
+            }
         }
     }
 
@@ -37,10 +40,6 @@ public class GameManagerScript : MonoBehaviour
             currentTimeScale = Time.timeScale; //Store the current time scale (May not be One due to Sloth).
             Time.timeScale = 0; //Set the timescale to 0.
         }
-        else
-        {
-          //  paused = false; //Set the public pause variable to false.
-            Time.timeScale = currentTimeScale; //Restore the timeScale to it's value before pause.
-        }
+
     }
 }

@@ -13,6 +13,7 @@ public class PlayerCharacterScript : MonoBehaviour
     public Camera gameCam;
     public GameObject trackPotential;
     public Animator animator;
+    public bool tutorial;
 
     private CharacterController player;
     private CapsuleCollider capCollider;
@@ -29,13 +30,19 @@ public class PlayerCharacterScript : MonoBehaviour
     void Update()
     {
         if (!GetComponent<DamageScript>().dead && !gameManager.GetComponent<GameManagerScript>().paused 
-            && Time.timeSinceLevelLoad > 0.4f && !FindObjectOfType<LustMask>().lustActive)
+            && Time.timeSinceLevelLoad > 0.4f && !FindObjectOfType<LustMask>().lustActive && !tutorial)
         {
+            animator.enabled = true;
             StickToWorldspace(this.transform, trackPotential.transform, ref direction, ref rotSpeed); //Recieve direction and speed from Analog Sticks.
             Animation(rotSpeed, direction, jumping); //Parse direction, speed and jump to animator.
             InputController();  //Take Player Input and Output Accordingly.
             Movement(); //Handle player movement (Player Speed, Rotation and Gravity).
         }
+        else if(tutorial)
+        {
+            animator.enabled = false;
+        }
+            
     }
 
     private void FixedUpdate()

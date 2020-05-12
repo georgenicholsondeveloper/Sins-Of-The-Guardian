@@ -17,7 +17,6 @@ public class AnimatorScript : MonoBehaviour
             if (gameManager.GetComponent<GameManagerScript>().paused)
             {
                 animator.updateMode = AnimatorUpdateMode.Normal;
-                print(Time.timeScale);
             }
             else
                 animator.updateMode = AnimatorUpdateMode.UnscaledTime;
@@ -30,7 +29,7 @@ public class AnimatorScript : MonoBehaviour
 
 
             if (stateInfo.IsTag("IsDead"))
-            {
+            {               
                 animator.ApplyBuiltinRootMotion();
             }
             else
