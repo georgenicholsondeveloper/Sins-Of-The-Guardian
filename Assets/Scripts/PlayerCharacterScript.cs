@@ -138,7 +138,7 @@ public class PlayerCharacterScript : MonoBehaviour
     void StickToWorldspace(Transform root, Transform camera, ref float directionOut, ref float speedOut)
     {
         Vector3 rootDirection = root.forward;
-        Vector3 stickDirection = new Vector3(Input.GetAxis("Horizontal") * Time.unscaledDeltaTime, 0, Input.GetAxis("Vertical") * Time.unscaledDeltaTime) * 1000;
+        Vector3 stickDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         //Get Stick Direction ^^.
 
         if (stickDirection.sqrMagnitude > 1) //Normalise the Stick Direction
