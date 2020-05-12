@@ -69,7 +69,21 @@ public class TutorialCalculationScript : MonoBehaviour
                     break;
                 case 7:
                     tutorialScript.tutNumber = tutorialNum;
+                    if (Input.GetKey(KeyCode.Joystick1Button4) || Input.GetKey(KeyCode.Joystick1Button5))
+                    {
+                        tutorialScript.input = true;
+                    }
+                    break;
+                case 8:
+                    tutorialScript.tutNumber = tutorialNum;
                     if (Input.GetKey(KeyCode.Joystick1Button1))
+                    {
+                        tutorialScript.input = true;
+                    }
+                    break;
+                case 9:
+                    tutorialScript.tutNumber = tutorialNum;
+                    if (Input.GetAxis("LeftTrigger") != 0)
                     {
                         tutorialScript.input = true;
                     }

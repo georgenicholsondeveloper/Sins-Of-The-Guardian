@@ -141,7 +141,16 @@ public class UserInterfaceScript : MonoBehaviour
             case 8:
                 if (!completed)
                 {
-                    tutorialText.text = "You can combine abilities if you're quick enough. Try using Sloth and Pride to cross this gap" + "\n" + "Press 'B' to cancel";
+                    tutorialText.text = "You can combine abilities if you're quick enough. Try using Sloth and Pride to cross this gap" + "\n" + "Press 'B' to continue";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 9:
+                if (!completed)
+                {
+                    tutorialText.text = "The Lust Mask allows you to control corrupted inhabitants."+ "\n" + "Select the Wrapped Mask and Aim at the Roc-Hound with the Left Trigger" + "\n"+ "Press 'X' to activate it";
                     tutorialText.enabled = true;
                 }
                 else
