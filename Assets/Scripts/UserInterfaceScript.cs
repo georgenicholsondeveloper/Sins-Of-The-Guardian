@@ -150,7 +150,16 @@ public class UserInterfaceScript : MonoBehaviour
             case 9:
                 if (!completed)
                 {
-                    tutorialText.text = "The Lust Mask allows you to control corrupted inhabitants."+ "\n" + "Select the Wrapped Mask and Aim at the Roc-Hound with the Left Trigger" + "\n"+ "Press 'X' to activate it";
+                    tutorialText.text = "The Lust Mask allows you to control corrupted inhabitants."+ "\n"  + "\n" + "Select the Wrapped Mask and Aim at the Roc-Hound with the Left Trigger" + "\n"+ "Press 'X' to activate it";
+                    tutorialText.enabled = true;
+                }
+                else
+                    tutorialText.enabled = false;
+                break;
+            case 10:
+                if (!completed)
+                {
+                    tutorialText.text = "The Wrath Mask shoots a strong force from the Guardian's hand." + "\n" + "Select the Horned Mask, use Left Trigger to aim and Press 'X' to activate it" + "\n" + "\n" + "Try aiming it at this rock, and use Sloth to ride it on the way down";
                     tutorialText.enabled = true;
                 }
                 else

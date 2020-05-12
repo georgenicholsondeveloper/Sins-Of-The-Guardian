@@ -17,18 +17,16 @@ public class TutorialCalculationScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            tutorialScript.tutNumber = tutorialNum;
             switch (tutorialNum)
             {
                 case 1:
-                    tutorialScript.tutNumber = tutorialNum;
                     if (Input.GetAxis("Vertical") > 0.1 || Input.GetAxis("Vertical") > 0.1)
                     {
                         tutorialScript.input = true;
                     }
                     break;
                 case 2:
-                    tutorialScript.tutNumber = tutorialNum;
-
                     rightStick = new Vector2(Input.GetAxis("JVertical"), Input.GetAxis("JHorizontal"));
 
                     if (rightStick.sqrMagnitude > 1)
@@ -40,49 +38,48 @@ public class TutorialCalculationScript : MonoBehaviour
                     }                  
                     break;
                 case 3:
-                    tutorialScript.tutNumber = tutorialNum;
                     if (Input.GetKey(KeyCode.Joystick1Button0))
                     {
                         tutorialScript.input = true;
                     }
                     break;
                 case 4:
-                    tutorialScript.tutNumber = tutorialNum;
                     if (Input.GetKey(KeyCode.Joystick1Button1))
                     {
                         tutorialScript.input = true;
                     }
                     break;
                 case 5:
-                    tutorialScript.tutNumber = tutorialNum;
                     if (Input.GetKey(KeyCode.Joystick1Button2))
                     {
                         tutorialScript.input = true;
                     }
                     break;
                 case 6:
-                    tutorialScript.tutNumber = tutorialNum;
                     if (Input.GetKey(KeyCode.Joystick1Button4) || Input.GetKey(KeyCode.Joystick1Button5))
                     {
                         tutorialScript.input = true;
                     }
                     break;
                 case 7:
-                    tutorialScript.tutNumber = tutorialNum;
                     if (Input.GetKey(KeyCode.Joystick1Button4) || Input.GetKey(KeyCode.Joystick1Button5))
                     {
                         tutorialScript.input = true;
                     }
                     break;
                 case 8:
-                    tutorialScript.tutNumber = tutorialNum;
                     if (Input.GetKey(KeyCode.Joystick1Button1))
                     {
                         tutorialScript.input = true;
                     }
                     break;
                 case 9:
-                    tutorialScript.tutNumber = tutorialNum;
+                    if (Input.GetAxis("LeftTrigger") != 0)
+                    {
+                        tutorialScript.input = true;
+                    }
+                    break;
+                case 10:
                     if (Input.GetAxis("LeftTrigger") != 0)
                     {
                         tutorialScript.input = true;
