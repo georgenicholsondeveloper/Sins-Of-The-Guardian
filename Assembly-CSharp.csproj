@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CleanseScript.cs" />
+    <Compile Include="Assets\FallingRockScript.cs" />
     <Compile Include="Assets\FantasyPack3\DogLikeCreature\DogTrailerAnimBehaviour.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\AlertEnemies.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawAI.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\MD_Folder\Scripts\Dev2\SightReceiver.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\DUKnowUrEnemy\BaseEAI.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\sample.cs" />
+    <Compile Include="Assets\ResetRockScript.cs" />
     <Compile Include="Assets\Scripts\ActivateLever.cs" />
     <Compile Include="Assets\Scripts\AnimatorScript.cs" />
     <Compile Include="Assets\Scripts\bulletBehaviour.cs" />
