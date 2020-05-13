@@ -5,19 +5,24 @@ using UnityEngine;
 public class ActivateLever : MonoBehaviour
 {
     bool isActive;
-
+    int activNum =0;
+  
     [SerializeField]
     private GameObject canvas, gameCam;
     [SerializeField]
+    GameObject bridgeManager;
+    [SerializeField]
     private bool shouldCooldown;
     [SerializeField]
-    private float cooldown;
-    private float addedCooldown;
+    private float cooldown, alternateCooldown;
 
+    public bool bridgePuzzle;
+
+    private float addedCooldown;
     private bool shouldRotate;
 
-    [SerializeField]
-    GameObject bridgeOne, bridgeTwo;
+
+  
 
     void Start()
     {
@@ -29,23 +34,28 @@ public class ActivateLever : MonoBehaviour
     {
         if (isActive && shouldCooldown)
         {
+            if (activNum >= 0)
+            {
+                cooldown = alternateCooldown;
+            }
             if(Time.time >= addedCooldown)
             {
                 GetComponentInParent<Animator>().SetBool("PullLever", false);
                 shouldRotate = false;
                 isActive = false;
+                BridgeRotate(false);
             }
-        }
-
-        BridgeRotate();
+        }    
     }
 
-    void BridgeRotate()
+    void BridgeRotate(bool x)
     {
-        if (shouldRotate)
+        if (bridgePuzzle)
         {
-            bridgeOne.transform.Rotate(0, 15 * Time.deltaTime,0 );
-            bridgeTwo.transform.Rotate(0, 15 * Time.deltaTime,0);
+            if (x)
+                bridgeManager.GetComponent<BridePuzzleManagerScript>().interactionNumber = int.Parse(transform.name);
+            else
+                bridgeManager.GetComponent<BridePuzzleManagerScript>().interactionNumber = 0;
         }
     }
 
@@ -59,8 +69,9 @@ public class ActivateLever : MonoBehaviour
                 Quaternion tempRot = canvas.transform.rotation;
                 canvas.transform.LookAt(gameCam.transform.position);
 
-                if (Input.GetKeyDown(KeyCode.Joystick1Button3))
+                if (Input.GetKey(KeyCode.Joystick1Button3))
                 {
+                    BridgeRotate(true);
                     GetComponentInParent<Animator>().SetBool("PullLever", true);
                     canvas.SetActive(false);
                     shouldRotate = true;

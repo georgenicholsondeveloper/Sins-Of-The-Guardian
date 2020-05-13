@@ -62,10 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CleanseScript.cs" />
-    <Compile Include="Assets\FallingRockScript.cs" />
+    <Compile Include="Assets\BridePuzzleManagerScript.cs" />
     <Compile Include="Assets\FantasyPack3\DogLikeCreature\DogTrailerAnimBehaviour.cs" />
-    <Compile Include="Assets\GruckPushRockScript.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\AlertEnemies.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawAI.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawScout.cs" />
@@ -75,17 +73,19 @@
     <Compile Include="Assets\MD_Folder\Scripts\Dev2\SightReceiver.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\DUKnowUrEnemy\BaseEAI.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\sample.cs" />
-    <Compile Include="Assets\ResetRockScript.cs" />
     <Compile Include="Assets\Scripts\ActivateLever.cs" />
     <Compile Include="Assets\Scripts\AnimatorScript.cs" />
     <Compile Include="Assets\Scripts\bulletBehaviour.cs" />
     <Compile Include="Assets\Scripts\CheckpointScript.cs" />
+    <Compile Include="Assets\Scripts\CleanseScript.cs" />
     <Compile Include="Assets\Scripts\CloseDoorScript.cs" />
     <Compile Include="Assets\Scripts\DamageScript.cs" />
     <Compile Include="Assets\Scripts\Dog_ctrl.cs" />
+    <Compile Include="Assets\Scripts\FallingRockScript.cs" />
     <Compile Include="Assets\Scripts\FallingRockTriggerScript.cs" />
     <Compile Include="Assets\Scripts\FogReverseScript.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
+    <Compile Include="Assets\Scripts\GruckPushRockScript.cs" />
     <Compile Include="Assets\Scripts\InputControlScript.cs" />
     <Compile Include="Assets\Scripts\LustMask.cs" />
     <Compile Include="Assets\Scripts\MaskSelection.cs" />
@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\OutOfBoundsScript.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacterScript.cs" />
     <Compile Include="Assets\Scripts\PrideMask.cs" />
+    <Compile Include="Assets\Scripts\ResetRockScript.cs" />
     <Compile Include="Assets\Scripts\RockScript.cs" />
     <Compile Include="Assets\Scripts\SlothMask.cs" />
     <Compile Include="Assets\Scripts\SporeGrow.cs" />
