@@ -36,7 +36,7 @@ public class LustMask : MonoBehaviour
     {
         if (activateAbility)
         {
-            if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward * 30f, out RaycastHit hit) && (hit.transform.parent.tag == "Enemy" || hit.transform.tag == "Enemy"))
+            if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward * 1f, out RaycastHit hit) && (hit.transform.parent.tag == "Enemy" || hit.transform.tag == "Enemy"))
             {
                 targettedEnemy = hit.transform.parent.gameObject;
                 targettedEnemy.GetComponentInChildren<BaseEAI>().enabled = false;

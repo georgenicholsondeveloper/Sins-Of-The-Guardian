@@ -57,7 +57,7 @@ public class WrathMask : MonoBehaviour
                 }
                 else
                 {
-                    if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward * 25f, out RaycastHit hit2))
+                    if (Physics.SphereCast(Camera.main.transform.position,0.5f, Camera.main.transform.forward * 25f, out RaycastHit hit2))
                     {
                         //Check Raycast from the camera's forward direction for 50 meters and return if it collides with anything.
                         if (hit2.transform.gameObject.GetComponent<Rigidbody>() && hit2.transform.gameObject.GetComponent<Collider>() && !hit2.transform.gameObject.GetComponent<Collider>().isTrigger) //Is the collision a rigidbody?

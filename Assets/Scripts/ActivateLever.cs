@@ -12,27 +12,25 @@ public class ActivateLever : MonoBehaviour
     [SerializeField]
     GameObject bridgeManager;
     [SerializeField]
-    private bool shouldCooldown;
+    private bool shouldCooldown, infinite;
     [SerializeField]
     private float cooldown, alternateCooldown;
+    [SerializeField]
+    private int Bridge1, Bridge2;
 
-    public bool bridgePuzzle;
+    public bool bridgePuzzle, bossLever;
 
     private float addedCooldown;
-    private bool shouldRotate;
-
-
-  
+    private bool shouldRotate, hasSwitchedoff;
 
     void Start()
     {
         canvas.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (isActive && shouldCooldown)
+        if (isActive)
         {
             if (activNum >= 0)
             {
@@ -40,10 +38,20 @@ public class ActivateLever : MonoBehaviour
             }
             if(Time.time >= addedCooldown)
             {
-                GetComponentInParent<Animator>().SetBool("PullLever", false);
-                shouldRotate = false;
-                isActive = false;
-                BridgeRotate(false);
+                if (shouldCooldown)
+                {
+                    GetComponentInParent<Animator>().SetBool("PullLever", false);
+                    shouldRotate = false;
+                    isActive = false;
+                    if(bridgePuzzle)
+                        BridgeRotate(false);
+               
+                }
+                else if (!hasSwitchedoff && !infinite && bridgePuzzle)
+                {
+                    BridgeRotate(false);
+                    hasSwitchedoff = true;
+                }
             }
         }    
     }
@@ -53,9 +61,15 @@ public class ActivateLever : MonoBehaviour
         if (bridgePuzzle)
         {
             if (x)
-                bridgeManager.GetComponent<BridePuzzleManagerScript>().interactionNumber = int.Parse(transform.name);
+            {
+                bridgeManager.GetComponent<BridePuzzleManagerScript>().interactionNumber = Bridge1;
+                bridgeManager.GetComponent<BridePuzzleManagerScript>().secondInteraction = Bridge2;
+            }
             else
+            {
                 bridgeManager.GetComponent<BridePuzzleManagerScript>().interactionNumber = 0;
+                bridgeManager.GetComponent<BridePuzzleManagerScript>().secondInteraction = 0;
+            }
         }
     }
 
@@ -69,14 +83,20 @@ public class ActivateLever : MonoBehaviour
                 Quaternion tempRot = canvas.transform.rotation;
                 canvas.transform.LookAt(gameCam.transform.position);
 
-                if (Input.GetKey(KeyCode.Joystick1Button3))
+                if (Input.GetKeyDown(KeyCode.Joystick1Button3))
                 {
+                    print("hello");
                     BridgeRotate(true);
                     GetComponentInParent<Animator>().SetBool("PullLever", true);
                     canvas.SetActive(false);
                     shouldRotate = true;
                     addedCooldown = Time.time + cooldown;
-                    isActive = true;                   
+                    isActive = true;
+                    print(bossLever);
+                    if (bossLever)
+                    {
+                        print("HI");
+                    }
                 }
             }
 

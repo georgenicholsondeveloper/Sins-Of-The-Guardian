@@ -62,8 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BridePuzzleManagerScript.cs" />
     <Compile Include="Assets\FantasyPack3\DogLikeCreature\DogTrailerAnimBehaviour.cs" />
+    <Compile Include="Assets\GruckPuzzleScript.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\AlertEnemies.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawAI.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\Dev1\CrawScout.cs" />
@@ -73,8 +73,10 @@
     <Compile Include="Assets\MD_Folder\Scripts\Dev2\SightReceiver.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\DUKnowUrEnemy\BaseEAI.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\sample.cs" />
+    <Compile Include="Assets\PressurePlateScript.cs" />
     <Compile Include="Assets\Scripts\ActivateLever.cs" />
     <Compile Include="Assets\Scripts\AnimatorScript.cs" />
+    <Compile Include="Assets\Scripts\BridePuzzleManagerScript.cs" />
     <Compile Include="Assets\Scripts\bulletBehaviour.cs" />
     <Compile Include="Assets\Scripts\CheckpointScript.cs" />
     <Compile Include="Assets\Scripts\CleanseScript.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="Assets\Scripts\MaterialChangeScript.cs" />
     <Compile Include="Assets\Scripts\NodeInteractionScript.cs" />
     <Compile Include="Assets\Scripts\OutOfBoundsScript.cs" />
+    <Compile Include="Assets\Scripts\ParentToBridgeScript.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacterScript.cs" />
     <Compile Include="Assets\Scripts\PrideMask.cs" />
     <Compile Include="Assets\Scripts\ResetRockScript.cs" />

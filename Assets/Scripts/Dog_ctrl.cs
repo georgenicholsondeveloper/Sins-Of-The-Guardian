@@ -77,6 +77,8 @@ public class Dog_ctrl : MonoBehaviour {
             moveDirection.x = 0;
             anim.SetFloat("Speed", 0f);
             anim.SetFloat("Direction", 0f);
+            anim.SetBool("Idle", true);
+            anim.SetBool("Run", false);
         }
     }
 
