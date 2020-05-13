@@ -85,17 +85,17 @@ public class ActivateLever : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.Joystick1Button3))
                 {
-                    print("hello");
                     BridgeRotate(true);
                     GetComponentInParent<Animator>().SetBool("PullLever", true);
                     canvas.SetActive(false);
                     shouldRotate = true;
                     addedCooldown = Time.time + cooldown;
                     isActive = true;
-                    print(bossLever);
+
                     if (bossLever)
                     {
-                        print("HI");
+                        GameObject.FindGameObjectWithTag("BossChamber").GetComponent<BossChamberScript>().activated = true;
+                        GameObject.FindGameObjectWithTag("BossChamber").GetComponent<BossChamberScript>().activeNumber += 1;
                     }
                 }
             }
