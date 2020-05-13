@@ -72,6 +72,9 @@
     <Compile Include="Assets\MD_Folder\Scripts\Dev2\SightReceiver.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\DUKnowUrEnemy\BaseEAI.cs" />
     <Compile Include="Assets\MD_Folder\Scripts\sample.cs" />
+    <Compile Include="Assets\RockActivationScript.cs" />
+    <Compile Include="Assets\RockBreakScript.cs" />
+    <Compile Include="Assets\RodPuzzleActive.cs" />
     <Compile Include="Assets\Scripts\ActivateLever.cs" />
     <Compile Include="Assets\Scripts\AnimatorScript.cs" />
     <Compile Include="Assets\Scripts\BossChamberScript.cs" />

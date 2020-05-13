@@ -30,6 +30,10 @@ public class NodeInteractionScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Joystick1Button3))
             {
                 Cleanse();
+                if (GetComponent<RockActivationScript>())
+                {
+                    GetComponent<RockActivationScript>().ActivateRock();
+                }
                 Destroy(this.gameObject);
                 canvas.SetActive(false);
             }
